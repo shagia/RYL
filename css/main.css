@@ -50,3 +50,7 @@ html,body {
 
 .video-grid > div {
 }
+
+.video-template {
+	/* .video-template must serve as the parent for both a video and a play button element. */
+}
