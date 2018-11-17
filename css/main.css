@@ -1,5 +1,6 @@
 html,body {
 	margin: 0;
+	background-image: url("../img/background.jpg")
 }
 
 .center {
@@ -35,7 +36,13 @@ html,body {
 	padding: 0;
 }
 
+.title {
+	padding-left: 10%;
+	text-transform: uppercase;
+}
+
 .video-grid {
+	text-align: center;
 }
 
 .video-grid > .item-video{
