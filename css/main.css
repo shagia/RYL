@@ -1,0 +1,26 @@
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+.header-nav > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.header-nav .nav-item{
+	margin-left: 45%;
+	margin-right: 45%;
+	text-align: center;
+}
+
+.carousel-cell{
+	width: auto;
+}
+
+.item-video{
+	width: 325px;
+	margin: 0;
+	padding: 0;
+}
