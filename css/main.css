@@ -1,6 +1,12 @@
 html,body {
 	margin: 0;
-	background-image: url("../img/background.jpg")
+	background-image: url("../img/background.jpg");
+	background-position: center;
+	background-attachment: fixed;
+}
+
+section {
+	margin: 40px 0px 80px 0px;
 }
 
 .center {
@@ -12,6 +18,13 @@ html,body {
 .header-img {
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+.play {
+	position: absolute;
+	left: 5px;
+	right: 0;
+	width: 50%;
 }
 
 .header-nav > ul {
@@ -34,6 +47,10 @@ html,body {
 	width: 325px;
 	margin: 0;
 	padding: 0;
+}
+
+.about {
+	margin: 20px;
 }
 
 .title {
