@@ -9,6 +9,10 @@ section {
 	margin: 40px 0px 80px 0px;
 }
 
+.video-template > .sub-title {
+	text-align: left !important;
+}
+
 .center {
 	display: flex;
 	justify-content: center;
@@ -59,7 +63,8 @@ section {
 }
 
 .video-grid {
-	text-align: center;
+	position: relative;
+	left: calc(7% / 2);
 }
 
 .video-grid > .item-video{
