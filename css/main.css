@@ -3,6 +3,17 @@ html,body {
 	background-image: url("../img/background.jpg");
 	background-position: center;
 	background-attachment: fixed;
+	font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+	html,body {
+	margin: 0;
+	font-size: 13px;
+}
+.video-grid {
+	flex-direction: column;
+}
 }
 
 section {
@@ -63,8 +74,16 @@ section {
 }
 
 .video-grid {
-	position: relative;
-	left: calc(7% / 2);
+	display: flex;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	justify-content: center;
+	/*position: relative;
+	left: calc(7% / 2);*/
+}
+
+.item-video {
+	width: 100%;
 }
 
 .video-grid > .item-video{
