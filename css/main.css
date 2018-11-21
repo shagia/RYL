@@ -1,6 +1,6 @@
 html,body {
 	margin: 0;
-	background-image: url("../img/background.jpg");
+	background-image: url("https://s3.amazonaws.com/media.youthradio.org/wp-content/uploads/2018/11/15153518/mxtp-bg.jpg");
 	background-position: center;
 	background-attachment: fixed;
 	font-family: 'roboto';
