@@ -65,7 +65,7 @@ section {
 }
 
 .about {
-	margin: 20px;
+	margin: 0px 10%;
 }
 
 .title {
@@ -75,8 +75,7 @@ section {
 
 .video-grid {
 	display: flex;
-	margin-left: 2rem;
-	margin-right: 2rem;
+	margin: 0px 10%;
 	justify-content: center;
 	/*position: relative;
 	left: calc(7% / 2);*/
@@ -88,7 +87,7 @@ section {
 
 .sub-title {
 	margin-left: 15px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	color: black;
 }
 
