@@ -6,7 +6,7 @@ html,body {
 	font-size: 18px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 414px) {
 	html,body {
 	margin: 0;
 	font-size: 13px;
@@ -84,6 +84,12 @@ section {
 
 .item-video {
 	width: 100%;
+}
+
+.sub-title {
+	margin-left: 15px;
+	margin-bottom: 20px;
+	color: black;
 }
 
 .video-grid > .item-video{
