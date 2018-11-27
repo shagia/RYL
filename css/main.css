@@ -2,7 +2,7 @@ body {
 	background-image: url("https://s3.amazonaws.com/media.youthradio.org/wp-content/uploads/2018/11/15153518/mxtp-bg.jpg");
 	background-position: center;
 	background-attachment: fixed;
-	background-size: contain;
+  background-size: cover;
 }
 
 .video-template > .sub-title {
@@ -30,16 +30,6 @@ body {
 	margin-left: 5%;
 	margin-right: 5%;
 	text-align: center;
-}
-
-.carousel-cell{
-	width: auto;
-}
-
-.carousel-cell > .item-video{
-	width: 325px;
-	margin: 0;
-	padding: 0;
 }
 
 .about {
@@ -72,20 +62,6 @@ body {
 	}
 }
 
-.video-template > .item-video {
-	/*zoom: 60%;*/
-	width: 100%;
-}
-
-.sub-title {
-	/* margin: 5px 0px 30px 0px; */
-}
-
-.video-grid > .item-video{
-}
-
-.video-grid > div {
-}
 
 .video-template {
 	/* .video-template must serve as the parent for both a video and a play button element. */
@@ -105,3 +81,28 @@ body {
    top: 0;
    width: 100%;
 }
+
+body.page-template-default .content-wrapper, body.single-post .content-wrapper {
+     padding: 0;
+}
+
+.plyr__control--overlaid {
+    background: unset !important;
+}
+
+
+.video-wrap {
+  position: relative;
+  width: calc(100%/4);
+  height: auto;
+}
+@media screen and (max-width: 800px) {
+	.video-wrap {
+	  position: relative;
+	  width: 100%;
+	  height: auto;
+	}
+}
+/* .main-carousel > .item-video {
+	width: 100px;
+} */
