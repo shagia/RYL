@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   // This is the bare minimum JavaScript. You can opt to pass no arguments to setup.
   const a = document.querySelector('.item-video');
-   // All videos must be loaded before initializing either the video player or the carousel.
   a.addEventListener('loadeddata', function() {
+   // All videos must be loaded before initializing either the video player or the carousel.
   console.log(a + " loaded!");
     const players = Plyr.setup('.item-video', {
       controls: [
