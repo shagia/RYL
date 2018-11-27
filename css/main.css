@@ -82,14 +82,10 @@ body {
    width: 100%;
 }
 
-body.page-template-default .content-wrapper, body.single-post .content-wrapper {
-     padding: 0;
+.plyr--video .plyr__control.plyr__tab-focus, .plyr--video .plyr__control:hover, .plyr--video .plyr__control[aria-expanded=true] {
+    background: #00ebab !important;
+    color: #fff;
 }
-
-.plyr__control--overlaid {
-    background: unset !important;
-}
-
 
 .video-wrap {
   position: relative;
