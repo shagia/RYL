@@ -1,10 +1,8 @@
-document.addEventListener('DOMContentLoaded', () => {
-  // This is the bare minimum JavaScript. You can opt to pass no arguments to setup.
-  const a = document.querySelector('.item-video');
-  a.addEventListener('loadeddata', function() {
-   // All videos must be loaded before initializing either the video player or the carousel.
-  console.log(a + " loaded!");
-    const players = Plyr.setup('.item-video', {
+var videoCount = 0;
+
+function flickityStart(){
+
+const players = Plyr.setup('.item-video', {
       controls: [
         // 'play-large', // The large play button in the center
         'play', // The large play button in the center
@@ -21,6 +19,24 @@ document.addEventListener('DOMContentLoaded', () => {
       pageDots: true,
       draggable: true,
     });
+
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  // This is the bare minimum JavaScript. You can opt to pass no arguments to setup.
+  const videoList = document.querySelectorAll('.item-video');
+  videoList.forEach(function(el) {
+    el.addEventListener('loadeddata', function() {
+
+    console.log(videoCount++)
+    if (videoCount >= videoList.length ) {
+      flickityStart();
+    }
+
+  console.log(videoList + " loaded!");
+
+  // if (videoCount == )
   }, false);
-});
+})});
+
 
