@@ -5,6 +5,11 @@ body {
   background-size: cover;
 }
 
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
 .video-template > .sub-title {
 	text-align: left !important;
 }

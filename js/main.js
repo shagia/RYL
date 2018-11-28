@@ -20,6 +20,20 @@ const players = Plyr.setup('.item-video', {
       draggable: true,
     });
 
+    var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal',
+    loop: true,
+    slidesPerView: 2,
+
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
+
 }
 
 document.addEventListener('DOMContentLoaded', () => {
