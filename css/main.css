@@ -55,6 +55,9 @@ body {
 	padding-left: 5%;
 	text-transform: uppercase;
 }
+.sub-title{
+	height: 20px;
+}
 
 .video-grid {
 	display: flex;
@@ -114,6 +117,10 @@ body {
 	  width: 100%;
 	  height: auto;
 	}
+}
+
+.swiper-pagination {
+	bottom: 0px !important;
 }
 /* .main-carousel > .item-video {
 	width: 100px;
