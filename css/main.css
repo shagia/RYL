@@ -100,10 +100,12 @@ body {
    top: 0;
    width: 100%;
 }
-
+.plyr__control > * {
+	fill: #fff !important;
+}
 .plyr--video .plyr__control.plyr__tab-focus, .plyr--video .plyr__control:hover, .plyr--video .plyr__control[aria-expanded=true] {
     background: #00ebab !important;
-    color: #fff;
+    color: #fff !important;
 }
 
 .video-wrap {
