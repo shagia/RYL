@@ -138,21 +138,20 @@ body {
 }
 .social-share-links a {
 	text-decoration: none;
+      border-bottom: unset;
+}
+.social-share-links a:hover {
+     text-decoration: none;
+      background-color: unset;
 }
 .social-share-links ul li {
   margin-bottom: 12px;
   list-style: none;
-
-}
-.social-share-links ul li:first-of-type {
-  margin-bottom: 18px;
-}
-.social-share-links ul li:last-of-type {
-  margin-bottom: 0;
 }
 .social-share-links ul li span:before {
   color: white;
   font-size: 25px;
+  list-style: none;
 }
 .social-share-links ul li span:not(.icon-share):hover:before {
   color: #464646;
@@ -172,6 +171,7 @@ body {
 .social-share-links.dark ul li a:not(.icon-share):hover:before {
   color: #464646;
 }
-/* .main-carousel > .item-video {
-	width: 100px;
-} */
+.with-formatting ul:not(.wp-block-gallery) li:before {
+ content: unset;
+ background-color: unset;
+}
