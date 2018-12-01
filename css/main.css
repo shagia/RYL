@@ -34,7 +34,7 @@ body {
 }
 .header-img {
 	text-align: center;
-	margin: 5%;
+	margin: 1%;
 }
 .header-img img {
 	width: 100%;
@@ -174,4 +174,7 @@ body {
 .with-formatting ul:not(.wp-block-gallery) li:before {
  content: unset;
  background-color: unset;
+}
+.content-wrapper {
+	padding: 0px !important;
 }
