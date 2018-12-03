@@ -66,6 +66,7 @@ body {
 
 .about {
 	margin: 0px 10%;
+	max-width: auto !important;
 }
 
 .title {
