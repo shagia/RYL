@@ -1,8 +1,8 @@
 body {
-	background-image: url("https://s3.amazonaws.com/media.youthradio.org/wp-content/uploads/2018/11/15153518/mxtp-bg.jpg");
-	background-position: center;
-	background-attachment: fixed;
-  background-size: cover;
+    background-image: url("https://s3.amazonaws.com/media.youthradio.org/wp-content/uploads/2018/11/15153518/mxtp-bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .swiper-container {
@@ -10,189 +10,208 @@ body {
 }
 
 .insta-icon-bg {
-	width: 32px;
-	height: 32px;
+    width: 32px;
+    height: 32px;
 }
 
 #aboutA {
-	display: flex;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 
-.icon-instagram-inverted{
-	background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 458.51 458.51'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:none;%7D.cls-2%7Bclip-path:url(%23clip-path);%7D.cls-3%7Bfill:%23fff;fill-rule:evenodd;%7D%3C/style%3E%3CclipPath id='clip-path' transform='translate(-22.93 -30.57)'%3E%3Crect class='cls-1' width='512' height='512'/%3E%3C/clipPath%3E%3C/defs%3E%3Ctitle%3Eicon-instagram-inverted%3C/title%3E%3Cg class='cls-2'%3E%3Cpath class='cls-3' d='M252.18,489.07c-126.61,0-229.25-102.63-229.25-229.25S125.57,30.57,252.18,30.57,481.43,133.2,481.43,259.82,378.79,489.07,252.18,489.07ZM345.45,376.4c1.21-.2,2.43-.38,3.63-.64a25.21,25.21,0,0,0,19.16-19.54c.19-1,.35-2.08.51-3.12V166.55c-.16-1-.3-2.05-.49-3.07a25.24,25.24,0,0,0-21.25-20c-.44-.05-.86-.15-1.3-.22H158.65c-1.12.2-2.26.35-3.37.61A25.14,25.14,0,0,0,135.83,165c-.06.44-.15.88-.22,1.31V353.36c.22,1.17.38,2.37.65,3.55a25.25,25.25,0,0,0,21.17,19.26c.49.06,1,.16,1.49.23ZM160.83,237.78v.63q0,51.75,0,103.51a9.43,9.43,0,0,0,9.26,9.23q82.08,0,164.14,0a9.42,9.42,0,0,0,9.28-9.26q0-51.69,0-103.38v-.72H321.26a72.93,72.93,0,0,1,2.87,30.67,71.31,71.31,0,0,1-10.05,29.07,72.48,72.48,0,0,1-97.24,25.56,70.73,70.73,0,0,1-28.16-28.37c-9.85-18.13-11.43-37.18-5.65-56.94Zm91.35-25.21a47.24,47.24,0,1,0,47.22,48.28A47.24,47.24,0,0,0,252.18,212.57ZM323,203.1v0c3.83,0,7.68.07,11.52,0a9.35,9.35,0,0,0,9-9.3V171.66a9.42,9.42,0,0,0-9.45-9.49H312a9.43,9.43,0,0,0-9.45,9.5c0,7.3,0,14.6,0,21.9a10.28,10.28,0,0,0,.56,3.25,9.41,9.41,0,0,0,9.23,6.29Z' transform='translate(-22.93 -30.57)'/%3E%3C/g%3E%3C/svg%3E");
+.icon-instagram-inverted {
+    background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 458.51 458.51'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:none;%7D.cls-2%7Bclip-path:url(%23clip-path);%7D.cls-3%7Bfill:%23fff;fill-rule:evenodd;%7D%3C/style%3E%3CclipPath id='clip-path' transform='translate(-22.93 -30.57)'%3E%3Crect class='cls-1' width='512' height='512'/%3E%3C/clipPath%3E%3C/defs%3E%3Ctitle%3Eicon-instagram-inverted%3C/title%3E%3Cg class='cls-2'%3E%3Cpath class='cls-3' d='M252.18,489.07c-126.61,0-229.25-102.63-229.25-229.25S125.57,30.57,252.18,30.57,481.43,133.2,481.43,259.82,378.79,489.07,252.18,489.07ZM345.45,376.4c1.21-.2,2.43-.38,3.63-.64a25.21,25.21,0,0,0,19.16-19.54c.19-1,.35-2.08.51-3.12V166.55c-.16-1-.3-2.05-.49-3.07a25.24,25.24,0,0,0-21.25-20c-.44-.05-.86-.15-1.3-.22H158.65c-1.12.2-2.26.35-3.37.61A25.14,25.14,0,0,0,135.83,165c-.06.44-.15.88-.22,1.31V353.36c.22,1.17.38,2.37.65,3.55a25.25,25.25,0,0,0,21.17,19.26c.49.06,1,.16,1.49.23ZM160.83,237.78v.63q0,51.75,0,103.51a9.43,9.43,0,0,0,9.26,9.23q82.08,0,164.14,0a9.42,9.42,0,0,0,9.28-9.26q0-51.69,0-103.38v-.72H321.26a72.93,72.93,0,0,1,2.87,30.67,71.31,71.31,0,0,1-10.05,29.07,72.48,72.48,0,0,1-97.24,25.56,70.73,70.73,0,0,1-28.16-28.37c-9.85-18.13-11.43-37.18-5.65-56.94Zm91.35-25.21a47.24,47.24,0,1,0,47.22,48.28A47.24,47.24,0,0,0,252.18,212.57ZM323,203.1v0c3.83,0,7.68.07,11.52,0a9.35,9.35,0,0,0,9-9.3V171.66a9.42,9.42,0,0,0-9.45-9.49H312a9.43,9.43,0,0,0-9.45,9.5c0,7.3,0,14.6,0,21.9a10.28,10.28,0,0,0,.56,3.25,9.41,9.41,0,0,0,9.23,6.29Z' transform='translate(-22.93 -30.57)'/%3E%3C/g%3E%3C/svg%3E");
 }
-.icon-instagram-inverted:hover{
-	background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 458.51 458.51'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:none;%7D.cls-2%7Bclip-path:url(%23clip-path);%7D.cls-3%7Bfill:%23323232;fill-rule:evenodd;%7D%3C/style%3E%3CclipPath id='clip-path' transform='translate(-22.93 -30.57)'%3E%3Crect class='cls-1' width='512' height='512'/%3E%3C/clipPath%3E%3C/defs%3E%3Ctitle%3Eicon-instagram-inverted%3C/title%3E%3Cg class='cls-2'%3E%3Cpath class='cls-3' d='M252.18,489.07c-126.61,0-229.25-102.63-229.25-229.25S125.57,30.57,252.18,30.57,481.43,133.2,481.43,259.82,378.79,489.07,252.18,489.07ZM345.45,376.4c1.21-.2,2.43-.38,3.63-.64a25.21,25.21,0,0,0,19.16-19.54c.19-1,.35-2.08.51-3.12V166.55c-.16-1-.3-2.05-.49-3.07a25.24,25.24,0,0,0-21.25-20c-.44-.05-.86-.15-1.3-.22H158.65c-1.12.2-2.26.35-3.37.61A25.14,25.14,0,0,0,135.83,165c-.06.44-.15.88-.22,1.31V353.36c.22,1.17.38,2.37.65,3.55a25.25,25.25,0,0,0,21.17,19.26c.49.06,1,.16,1.49.23ZM160.83,237.78v.63q0,51.75,0,103.51a9.43,9.43,0,0,0,9.26,9.23q82.08,0,164.14,0a9.42,9.42,0,0,0,9.28-9.26q0-51.69,0-103.38v-.72H321.26a72.93,72.93,0,0,1,2.87,30.67,71.31,71.31,0,0,1-10.05,29.07,72.48,72.48,0,0,1-97.24,25.56,70.73,70.73,0,0,1-28.16-28.37c-9.85-18.13-11.43-37.18-5.65-56.94Zm91.35-25.21a47.24,47.24,0,1,0,47.22,48.28A47.24,47.24,0,0,0,252.18,212.57ZM323,203.1v0c3.83,0,7.68.07,11.52,0a9.35,9.35,0,0,0,9-9.3V171.66a9.42,9.42,0,0,0-9.45-9.49H312a9.43,9.43,0,0,0-9.45,9.5c0,7.3,0,14.6,0,21.9a10.28,10.28,0,0,0,.56,3.25,9.41,9.41,0,0,0,9.23,6.29Z' transform='translate(-22.93 -30.57)'/%3E%3C/g%3E%3C/svg%3E");
+
+.icon-instagram-inverted:hover {
+    background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 458.51 458.51'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:none;%7D.cls-2%7Bclip-path:url(%23clip-path);%7D.cls-3%7Bfill:%23323232;fill-rule:evenodd;%7D%3C/style%3E%3CclipPath id='clip-path' transform='translate(-22.93 -30.57)'%3E%3Crect class='cls-1' width='512' height='512'/%3E%3C/clipPath%3E%3C/defs%3E%3Ctitle%3Eicon-instagram-inverted%3C/title%3E%3Cg class='cls-2'%3E%3Cpath class='cls-3' d='M252.18,489.07c-126.61,0-229.25-102.63-229.25-229.25S125.57,30.57,252.18,30.57,481.43,133.2,481.43,259.82,378.79,489.07,252.18,489.07ZM345.45,376.4c1.21-.2,2.43-.38,3.63-.64a25.21,25.21,0,0,0,19.16-19.54c.19-1,.35-2.08.51-3.12V166.55c-.16-1-.3-2.05-.49-3.07a25.24,25.24,0,0,0-21.25-20c-.44-.05-.86-.15-1.3-.22H158.65c-1.12.2-2.26.35-3.37.61A25.14,25.14,0,0,0,135.83,165c-.06.44-.15.88-.22,1.31V353.36c.22,1.17.38,2.37.65,3.55a25.25,25.25,0,0,0,21.17,19.26c.49.06,1,.16,1.49.23ZM160.83,237.78v.63q0,51.75,0,103.51a9.43,9.43,0,0,0,9.26,9.23q82.08,0,164.14,0a9.42,9.42,0,0,0,9.28-9.26q0-51.69,0-103.38v-.72H321.26a72.93,72.93,0,0,1,2.87,30.67,71.31,71.31,0,0,1-10.05,29.07,72.48,72.48,0,0,1-97.24,25.56,70.73,70.73,0,0,1-28.16-28.37c-9.85-18.13-11.43-37.18-5.65-56.94Zm91.35-25.21a47.24,47.24,0,1,0,47.22,48.28A47.24,47.24,0,0,0,252.18,212.57ZM323,203.1v0c3.83,0,7.68.07,11.52,0a9.35,9.35,0,0,0,9-9.3V171.66a9.42,9.42,0,0,0-9.45-9.49H312a9.43,9.43,0,0,0-9.45,9.5c0,7.3,0,14.6,0,21.9a10.28,10.28,0,0,0,.56,3.25,9.41,9.41,0,0,0,9.23,6.29Z' transform='translate(-22.93 -30.57)'/%3E%3C/g%3E%3C/svg%3E");
 }
-.swiper-pagination{
-	bottom: -20px;
+
+.swiper-pagination {
+    bottom: -20px;
 }
 
 .v2 .plyr {
-	width: 50%;
-	display: flex;
-	align-items: center;
-	text-align: center;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
-.video-template > .sub-title {
-	text-align: left !important;
+.video-template>.sub-title {
+    text-align: left !important;
 }
 
 .center {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.header-contents {
-	width: 100%;
-}
-.header-img {
-	text-align: center;
-	margin: 1%;
-}
-.header-img img {
-	width: 100%;
-  max-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.header-nav .nav-item{
-	margin-left: 5%;
-	margin-right: 5%;
-	text-align: center;
+.header-contents {
+    width: 100%;
+}
+
+.header-img {
+    text-align: center;
+    margin: 1%;
+}
+
+.header-img img {
+    width: 100%;
+    max-width: 350px;
+}
+
+.header-nav .nav-item {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
 }
 
 .about {
-	margin: 0px 10%;
-	max-width: 100% !important;
+    margin: 0px 10%;
+    max-width: 100% !important;
 }
 
 .title {
-	padding-left: 5%;
-	text-transform: uppercase;
+    padding-left: 5%;
+    text-transform: uppercase;
 }
-.sub-title{
-	height: 20px;
+
+.sub-title {
+    height: 20px;
 }
 
 .video-grid {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
 }
 
-.video-grid > .video-template {
-	width: calc(100%/3);
+.video-grid>.video-template {
+    width: calc(100%/3);
 }
 
 @media screen and (max-width: 800px) {
 
-	.video-grid {
-		flex-direction: column;
-	}
-	.video-grid > .video-template {
-		width: 100%;
-	}
-}
+    .video-grid {
+        flex-direction: column;
+    }
 
-
-
-.video-template {
-	/* .video-template must serve as the parent for both a video and a play button element. */
+    .video-grid>.video-template {
+        width: 100%;
+    }
 }
 
 .iframe-container {
-  overflow: hidden;
-  padding-top: 56.25%;
-  position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
 }
 
 .iframe-container iframe {
-   border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
-.plyr__control > * {
-	fill: #fff !important;
+
+.plyr__control>* {
+    fill: #fff !important;
 }
-.plyr--video .plyr__control.plyr__tab-focus, .plyr--video .plyr__control:hover, .plyr--video .plyr__control[aria-expanded=true] {
+
+.plyr--video .plyr__control.plyr__tab-focus,
+.plyr--video .plyr__control:hover,
+.plyr--video .plyr__control[aria-expanded=true] {
     background: #00ebab !important;
     color: #fff !important;
 }
 
 .video-wrap {
-  position: relative;
-  width: calc(100%/4);
-  height: auto;
+    position: relative;
+    width: calc(100%/4);
+    height: auto;
 }
+
 @media screen and (max-width: 800px) {
-	.video-wrap {
-	  position: relative;
-	  width: 100%;
-	  height: auto;
-	}
+    .video-wrap {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
 }
 
 .swiper-pagination {
-	bottom: 0px !important;
+    bottom: 0px !important;
 }
+
 #header {
-	position: relative;
+    position: relative;
 }
+
 .social-share-links {
-  display: none;
-  transition: unset;
-  display: block;
-  z-index: 50;
-	position: absolute;
-	right: 1%;
-	bottom: 0px;
+    display: none;
+    transition: unset;
+    display: block;
+    z-index: 50;
+    position: absolute;
+    right: 1%;
+    bottom: 0px;
 }
+
 .social-share-links a {
-	text-decoration: none;
-      border-bottom: unset;
+    text-decoration: none;
+    border-bottom: unset;
 }
+
 .social-share-links a:hover {
-     text-decoration: none;
-      background-color: unset;
+    text-decoration: none;
+    background-color: unset;
 }
+
 .social-share-links ul li {
-  margin-bottom: 12px;
-  list-style: none;
+    margin-bottom: 12px;
+    list-style: none;
 }
+
 .social-share-links ul li span:before {
-  color: white;
-  font-size: 25px;
-  list-style: none;
+    color: white;
+    font-size: 25px;
+    list-style: none;
 }
+
 .social-share-links ul li span:not(.icon-share):hover:before {
-  color: #464646;
+    color: #464646;
 }
+
 .social-share-links ul li a:before {
-  color: white;
-  font-size: 31px;
+    color: white;
+    font-size: 31px;
 }
+
 .social-share-links ul li a:hover:before {
-  color: #464646;
+    color: #464646;
 }
+
 .social-share-links.dark ul li span:before,
 .social-share-links.dark ul li a:before {
-  color: #D8D8D8;
+    color: #D8D8D8;
 }
+
 .social-share-links.dark ul li span:not(.icon-share):hover:before,
 .social-share-links.dark ul li a:not(.icon-share):hover:before {
-  color: #464646;
+    color: #464646;
 }
+
 .with-formatting ul:not(.wp-block-gallery) li:before {
- content: unset;
- background-color: unset;
+    content: unset;
+    background-color: unset;
 }
+
 .content-wrapper {
-	padding: 0px !important;
+    padding: 0px !important;
 }
